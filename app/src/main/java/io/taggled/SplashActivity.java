@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -22,7 +23,7 @@ public class SplashActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Ken's  action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "San's  action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -34,6 +35,10 @@ public class SplashActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        Toast.makeText(this, "HI TEAM", Toast.LENGTH_LONG).show();
+        int x = 4;
+        int y = 9;
+        int z = x+y;
     }
 
     @Override
