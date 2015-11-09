@@ -39,6 +39,9 @@ public class SplashActivity extends AppCompatActivity {
         int x = 4;
         int y = 9;
         int z = x+y;
+        // brian is adding a comment
+        // brian is adding another comment...and a new line!
+        
     }
 
     @Override
