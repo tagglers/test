@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -34,6 +35,7 @@ public class SplashActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        Toast.makeText(this, "HI TEAM", Toast.LENGTH_LONG).show();
     }
 
     @Override
