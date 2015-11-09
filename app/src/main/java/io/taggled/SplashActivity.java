@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -26,9 +27,15 @@ public class SplashActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-
-
-
+        FloatingActionButton fab2 = (FloatingActionButton) findViewById(R.id.fab_brian);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Hi I'm Brian", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });
+        Toast.makeText(this, "HI TEAM", Toast.LENGTH_LONG).show();
     }
 
     @Override
