@@ -36,6 +36,9 @@ public class SplashActivity extends AppCompatActivity {
             }
         });
         Toast.makeText(this, "HI TEAM", Toast.LENGTH_LONG).show();
+        int x = 4;
+        int y = 9;
+        int z = x+y;
     }
 
     @Override
